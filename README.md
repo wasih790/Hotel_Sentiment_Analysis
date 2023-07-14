@@ -2,7 +2,8 @@
 This repository contains a project on sentiment analysis using Natural Language Processing (NLP) techniques to analyze hotel reviews and predict their sentiment. The project focuses on a dataset of hotel reviews obtained from the Hugging Face platform's Tripadvisor Hotel Reviews dataset.
 PS. In the presentation, I chose Marriot International Hotel as my stakeholder to present this project too, but in reality, there are many reviews from different hotel chains. 
 
-![Screenshot 2023-07-13 at 3 39 16 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/4a9976e4-8718-4578-9296-fa35b3f82042)
+![black-wordcloud](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/de745a64-b5a9-444d-abed-a9308de97af0)
+
 
 ## Dataset
 The dataset used for this project can be found on the Hugging Face platform at the following link: https://huggingface.co/datasets/argilla/tripadvisor-hotel-reviews/viewer/argilla--tripadvisor-hotel-reviews/train?row=0, It consists of 20,491 rows, containing reviews and ratings ranging from 1 to 5. The dataset was preprocessed by adding a new column called 'Label' to predict whether a review is negative or positive. Reviews with ratings 4 and above are considered positive, while ratings 3 and below are considered negative.
