@@ -46,15 +46,16 @@ Two different models were developed to predict the sentiment labels of the hotel
 - Features: Text from the reviews and sentiment intensity analyzer scores
 - Accuracy: 89%
 - AUC Score: 93%
+  
+![Screenshot 2023-07-12 at 9 21 09 AM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/9d48fa10-7a1f-4d83-968b-8900ca7fd135)
 
 The second model, which incorporated sentiment intensity analyzer scores along with the review text, achieved higher accuracy and AUC scores compared to the first model. This suggests that considering the sentiment intensity of the reviews improves the predictive performance.
 
-![Screenshot 2023-07-12 at 7 03 30 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/0ea583a4-e07c-40a5-83fd-932d57b057c4)
-
+![Screenshot 2023-07-12 at 7 04 04 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/b0682866-270a-44de-a954-f787fad5452e)
 
 # Code and Implementation
-The code for this project can be found in the Sentiment Analysis folder,Natural Language Processing folder, and Topic Segmetation folder. It includes data preprocessing steps, exploratory data analysis, topic segmentation, model training, and evaluation.
-Additionally, DuckDB/SQL was utilized to transform the original dataset file as parquet file and then into a CSV file for easier data manipulation and analysis.
+The code for this project can be found in the Sentiment Analysis folder, Natural Language Processing folder, and Topic Segmentation folder. It includes data preprocessing steps, exploratory data analysis, topic segmentation, model training, and evaluation.
+Additionally, DuckDB/SQL was utilized to transform the original dataset file as a parquet file and then into a CSV file for easier data manipulation and analysis.
 Please ensure that these dependencies are installed before running the code.
 
 # Conclusion
