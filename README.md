@@ -11,6 +11,9 @@ The dataset used for this project can be found on the Hugging Face platform at t
 ## Objective
 The objective of this project is to perform sentiment analysis on the hotel reviews dataset and develop predictive models to classify reviews as either positive or negative. Additionally, topic segmentation was performed to identify the main topics discussed in the reviews.
 
+![Screenshot 2023-07-11 at 8 57 35 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/279a6553-9d7f-468e-99f8-679fd19be2f2)
+
+
 ## Topic Segmentation
 Topic segmentation was conducted to categorize the reviews into different topics based on their content. Five topics were identified during the analysis:
 
@@ -32,19 +35,17 @@ Two different models were developed to predict the sentiment labels of the hotel
 
 1. Complement Naive Bayes Model:
 
-Model Type: Complement Naive Bayes
-Features: Words from the reviews
-Accuracy: 80%
-AUC Score: 89%
-
-![Screenshot 2023-07-12 at 3 04 58 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/b028dd79-f10e-4d73-be62-3d9e0187fdfe)
-
+- Model Type: Complement Naive Bayes
+- Features: Words from the reviews
+- Accuracy: 80%
+- AUC Score: 89%
 
 2. Logistic Regression Model with Sentiment Intensity Analyzer:
-Model Type: Logistic Regression
-Features: Text from the reviews and sentiment intensity analyzer scores
-Accuracy: 89%
-AUC Score: 93%
+- Model Type: Logistic Regression
+- Features: Text from the reviews and sentiment intensity analyzer scores
+- Accuracy: 89%
+- AUC Score: 93%
+
 The second model, which incorporated sentiment intensity analyzer scores along with the review text, achieved higher accuracy and AUC scores compared to the first model. This suggests that considering the sentiment intensity of the reviews improves the predictive performance.
 
 ![Screenshot 2023-07-12 at 7 03 30 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/0ea583a4-e07c-40a5-83fd-932d57b057c4)
@@ -56,13 +57,13 @@ The code for this project can be found in the Sentiment Analysis folder. It incl
 Dependencies
 The following dependencies are required to run the code:
 
-Python 3.7 or above
-Natural Language Toolkit (NLTK)
-Scikit-learn
-Pandas
-Matplotlib
-Seaborn
-Plotly
+- Python 3.7 or above
+- Natural Language Toolkit (NLTK)
+- Scikit-learn
+- Pandas
+- Matplotlib
+- Seaborn
+- Plotly
 Please ensure that these dependencies are installed before running the code.
 
 # Conclusion
