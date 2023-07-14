@@ -1,9 +1,11 @@
 # NLP Sentiment Analysis on Hotel Reviews
 This repository contains a project on sentiment analysis using Natural Language Processing (NLP) techniques to analyze hotel reviews and predict their sentiment. The project focuses on a dataset of hotel reviews obtained from the Hugging Face platform's Tripadvisor Hotel Reviews dataset.
-PS. In the presentation I chose Marriot International Hotel as my stakeholder to present this project too, but in reality these are many reviews from different hotel chains. 
+PS. In the presentation, I chose Marriot International Hotel as my stakeholder to present this project too, but in reality, there are many reviews from different hotel chains. 
+
+![Screenshot 2023-07-13 at 3 39 16 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/4a9976e4-8718-4578-9296-fa35b3f82042)
 
 ## Dataset
-The dataset used for this project can be found on the Hugging Face platform at the following link: https://huggingface.co/datasets/argilla/tripadvisor-hotel-reviews/viewer/argilla--tripadvisor-hotel-reviews/train?row=0,. It consists of 20,491 rows, containing reviews and ratings ranging from 1 to 5. The dataset was preprocessed by adding a new column called 'Label' to predict whether a review is negative or positive. Reviews with ratings 4 and above are considered positive, while ratings 3 and below are considered negative.
+The dataset used for this project can be found on the Hugging Face platform at the following link: https://huggingface.co/datasets/argilla/tripadvisor-hotel-reviews/viewer/argilla--tripadvisor-hotel-reviews/train?row=0, It consists of 20,491 rows, containing reviews and ratings ranging from 1 to 5. The dataset was preprocessed by adding a new column called 'Label' to predict whether a review is negative or positive. Reviews with ratings 4 and above are considered positive, while ratings 3 and below are considered negative.
 
 ## Objective
 The objective of this project is to perform sentiment analysis on the hotel reviews dataset and develop predictive models to classify reviews as either positive or negative. Additionally, topic segmentation was performed to identify the main topics discussed in the reviews.
@@ -16,6 +18,9 @@ Topic segmentation was conducted to categorize the reviews into different topics
 3. Guest Interaction & Experience
 4. Restaurant Experience
 5. Resort
+
+![Screenshot 2023-07-13 at 3 41 26 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/6a5eb895-5d4b-4e13-83e7-ef0c714faebd)
+
 
 An interesting finding from the analysis is that a significant number of negative reviews were associated with the "Guest Interaction & Experience" topic. To address this, a recommendation was made to hotels to enhance guest satisfaction by providing better customer service and training staff on customer service etiquette.
 
@@ -30,13 +35,19 @@ Model Type: Complement Naive Bayes
 Features: Words from the reviews
 Accuracy: 80%
 AUC Score: 89%
-Logistic Regression Model with Sentiment Intensity Analyzer:
 
-2. Model Type: Logistic Regression
+![Screenshot 2023-07-12 at 3 04 58 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/b028dd79-f10e-4d73-be62-3d9e0187fdfe)
+
+
+2. Logistic Regression Model with Sentiment Intensity Analyzer:
+Model Type: Logistic Regression
 Features: Text from the reviews and sentiment intensity analyzer scores
 Accuracy: 89%
 AUC Score: 93%
 The second model, which incorporated sentiment intensity analyzer scores along with the review text, achieved higher accuracy and AUC scores compared to the first model. This suggests that considering the sentiment intensity of the reviews improves the predictive performance.
+
+![Screenshot 2023-07-12 at 7 03 30 PM](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/0ea583a4-e07c-40a5-83fd-932d57b057c4)
+
 
 # Code and Implementation
 The code for this project can be found in the Sentiment Analysis folder. It includes data preprocessing steps, exploratory data analysis, topic segmentation, model training, and evaluation.
