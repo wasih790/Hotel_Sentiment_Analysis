@@ -1,5 +1,6 @@
 # NLP Sentiment Analysis on Hotel Reviews
 This repository contains a project on sentiment analysis using Natural Language Processing (NLP) techniques to analyze hotel reviews and predict their sentiment. The project focuses on a dataset of hotel reviews obtained from the Hugging Face platform's Tripadvisor Hotel Reviews dataset.
+
 PS. In the presentation, I chose Marriot International Hotel as my stakeholder to present this project too, but in reality, there are many reviews from different hotel chains. 
 
 ![black-wordcloud](https://github.com/wasih790/Project_4_Hotel_Sentiment_Analysis/assets/120667351/de745a64-b5a9-444d-abed-a9308de97af0)
@@ -52,18 +53,8 @@ The second model, which incorporated sentiment intensity analyzer scores along w
 
 
 # Code and Implementation
-The code for this project can be found in the Sentiment Analysis folder. It includes data preprocessing steps, exploratory data analysis, topic segmentation, model training, and evaluation.
-
-Dependencies
-The following dependencies are required to run the code:
-
-- Python 3.7 or above
-- Natural Language Toolkit (NLTK)
-- Scikit-learn
-- Pandas
-- Matplotlib
-- Seaborn
-- Plotly
+The code for this project can be found in the Sentiment Analysis folder,Natural Language Processing folder, and Topic Segmetation folder. It includes data preprocessing steps, exploratory data analysis, topic segmentation, model training, and evaluation.
+Additionally, DuckDB/SQL was utilized to transform the original dataset file as parquet file and then into a CSV file for easier data manipulation and analysis.
 Please ensure that these dependencies are installed before running the code.
 
 # Conclusion
